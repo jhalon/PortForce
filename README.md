@@ -6,7 +6,7 @@ A Custom Port Brute Force Tool created for use in CTF's and Pentests.
 
 Yes, there are a lot of tools out there that do Brute Force for Telnet, SSH, FTP, etc.
 
-This tool was created to aid in brute forcing custom ports/dameons that don't typically run on SSH, FTP, etc.
+This tool was created to aid in brute forcing custom ports/daemons that don't typically run on SSH, FTP, etc.
 
 ## Install:
 
@@ -39,3 +39,9 @@ Since this was created using Python v2.7.13 it will not be compatible with Pytho
 * Please Submit a new Issue
 * Submit a Pull Request
 * Contact me
+
+## License:
+
+PortForce is under the terms of the [MIT License](https://www.tldrlegal.com/l/mit), follow clarification in the [License File](https://github.com/jhalon/PortForce/blob/master/LICENSE).
+
+
