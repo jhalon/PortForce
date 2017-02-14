@@ -25,7 +25,7 @@ Usage: ./port_force -t 192.168.0.1 -p 1234 -u users.txt -P pass.txt
 -t --target          - set IP address of Target
 -p --port            - set Port for Target
 -u --user           - set a list of usernames to brute force
--F --pass            - set a list of passwords to brute force
+-P --pass            - set a list of passwords to brute force
 ```
 
 ## Requirements:
