@@ -39,7 +39,7 @@ def usage():
     print "-h --help            - display usage information"
     print "-t --target          - set IP address of Target"
     print "-p --port            - set Port for Target"
-    print "-u --user           - set a list of usernames to brute force"
+    print "-u --user            - set a list of usernames to brute force"
     print "-F --pass            - set a list of passwords to brute force"
     print
     print
@@ -67,7 +67,7 @@ def main():
         sys.exit(1)
     
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "ht:p:u:P:", ["help", "target", "port", "user=", "pass="])
+        opts, args = getopt.getopt(sys.argv[1:], "h:t:p:u:P:", ["help", "target", "port", "user=", "pass="])
     except getopt.GetoptError as err:
         print bcolors.FAIL + "[ERROR] - " + str(err) +"\n" + bcolors.ENDC
         usage()
